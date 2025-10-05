@@ -9,7 +9,7 @@
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>PICK UP MONEY</title>
+    <title>PICK_UP_MONEY</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -867,7 +867,7 @@
             <button class="theme-toggle" id="themeToggle">
                 <i class="fas fa-sun"></i>
             </button>
-            <h1 class="header-title">PICK UP MONEY</h1>
+            <h1 class="header-title">PICK_UP_MONEY</h1>
         </div>
 
         <div class="profile-section">
@@ -940,15 +940,15 @@
 
     <script>
         // Configuration (Keep these the same or update as needed)
-        const APP_NAME = "PICK UP MONEY "; // Changed app name for the new design
+        const APP_NAME = "PICK_UP_MONEY "; // Changed app name for the new design
         const ADS_PER_DAY_LIMIT = 5000;
         const POINTS_PER_AD = 5;
         const MIN_WITHDRAW_POINTS = 400;
         const REFERRAL_BONUS_REFERRER = 10;
         const REFERRAL_BONUS_REFEREE = 5;
         const MONETAG_AD_FUNCTION_NAME = 'show_9973936'; // Ensure this is correct
-        const TELEGRAM_BOT_TOKEN = "7354534121:AAHssrmmk3zam5STFXWnOjNRqKyexOjXvmE"; // Ensure this is your correct bot token
-        const TELEGRAM_CHAT_ID = "-1002783990004"; // Ensure this is your correct chat ID and your bot is admin
+        const TELEGRAM_BOT_TOKEN = "7708377465:AAExYVL2ZtcA_e9NfCEsDqe0AMAsaWWXhv0"; // Ensure this is your correct bot token
+        const TELEGRAM_CHAT_ID = "-7741536834"; // Ensure this is your correct chat ID and your bot is admin
         const DEVELOPER_TELEGRAM_PROFILE_LINK = "https://t.me/freeinternet_bd25";
         const DEVELOPER_WEBSITE_LINK = "https://t.me/freeinternet_bd25";
         const OFFICIAL_CHANNEL_LINK = "https://t.me/takakuranofficialgroup"; // Placeholder, UPDATE THIS
@@ -1704,14 +1704,14 @@
                 return;
             }
 
-            const url = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`;
+            const url = `https://api.telegram.org/bot${7708377465:AAExYVL2ZtcA_e9NfCEsDqe0AMAsaWWXhv0}/sendMessage`;
             fetch(url, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
                 },
                 body: JSON.stringify({
-                    chat_id: TELEGRAM_CHAT_ID,
+                    chat_id: 7741536834,
                     text: message,
                     parse_mode: 'MarkdownV2'
                 })
@@ -1724,7 +1724,7 @@
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify({
-                            chat_id: TELEGRAM_CHAT_ID,
+                            chat_id: 7741536834,
                             text: message.replace(/[*_`\[\]()~>#+\-=|{}.!]/g, '')
                         })
                     }).then(res => res.json()).then(plainData => {
@@ -1759,14 +1759,14 @@ Referral From:
 ⏰ *Timestamp:* ${new Date().toLocaleString('en-GB', { timeZone: 'Asia/Dhaka' })}
             `;
 
-            const url = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`;
+            const url = `https://api.telegram.org/bot${7708377465:AAExYVL2ZtcA_e9NfCEsDqe0AMAsaWWXhv0}/sendMessage`;
             fetch(url, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
                 },
                 body: JSON.stringify({
-                    chat_id: TELEGRAM_CHAT_ID,
+                    chat_id: 7741536834,
                     text: message,
                     parse_mode: 'MarkdownV2'
                 })
@@ -1779,7 +1779,7 @@ Referral From:
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify({
-                            chat_id: TELEGRAM_CHAT_ID,
+                            chat_id: 7741536834,
                             text: message.replace(/[*_`\[\]()~>#+\-=|{}.!]/g, '')
                         })
                     });
@@ -1813,3 +1813,4 @@ Referral From:
 
 </body>
 </html>```
+
